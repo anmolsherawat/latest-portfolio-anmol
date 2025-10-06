@@ -1,13 +1,14 @@
-import { BiLogoTypescript } from 'react-icons/bi';
-import { DiMongodb, DiMsqlServer } from 'react-icons/di';
-import { FaBootstrap, FaNodeJs, FaReact } from 'react-icons/fa';
+import { FaCss3Alt, FaFileExcel, FaHtml5, FaNodeJs, FaReact } from 'react-icons/fa';
 import {
+	SiAdobephotoshop,
+	SiAdobepremierepro,
 	SiExpress,
-	SiFastify,
-	SiMui,
+	SiJavascript,
 	SiMysql,
-	SiShadcnui,
-	SiTailwindcss,
+	SiPandas,
+	SiPrisma,
+	SiPython,
+	SiReact,
 } from 'react-icons/si';
 import { TbBrandNextjs } from 'react-icons/tb';
 
@@ -16,84 +17,23 @@ import { SectionTitle } from '../components/section-title.component';
 
 const techs = [
 	{
-		heading: 'Core Stack I Work With',
+		heading: 'Skills',
 		items: [
-			{
-				title: 'Next JS',
-				icon: <TbBrandNextjs color='rgb(255, 255, 255)' />,
-				color: 'rgba(255, 255, 255, 0.4)',
-			},
-			{
-				title: 'React JS',
-				icon: <FaReact color='rgb(97, 219, 251)' />,
-				color: 'rgb(97, 219, 251, 0.6)',
-			},
-			{
-				title: 'Node JS',
-				icon: <FaNodeJs color='rgb(104, 160, 99)' />,
-				color: 'rgb(104, 160, 99)',
-			},
-			{
-				title: 'TypeScript',
-				icon: <BiLogoTypescript color='rgb(0, 122, 204)' />,
-				color: 'rgba(0, 122, 204, 0.6)',
-			},
-			{
-				title: 'Fastify',
-				icon: <SiFastify color='rgba(255, 255, 255)' />,
-				color: 'rgba(255, 255, 255, 0.4)',
-			},
-			{
-				title: 'Express JS',
-				icon: <SiExpress color='rgba(255, 255, 255)' />,
-				color: 'rgba(255, 255, 255, 0.4)',
-			},
-		],
-	},
-	{
-		heading: 'UI & Styling',
-		items: [
-			{
-				title: 'Material UI',
-				icon: <SiMui color='rgb(0, 127, 255)' />,
-				color: 'rgb(0, 127, 255, 0.6)',
-			},
-			{
-				title: 'ShadCn UI',
-				icon: <SiShadcnui color='rgb(255, 255, 255)' />,
-				color: 'rgba(255, 255, 255, 0.4)',
-			},
-			{
-				title: 'Tailwind CSS',
-				icon: <SiTailwindcss color='rgb(6, 182, 212)' />,
-				color: 'rgb(6, 182, 212, 0.7)',
-			},
-			{
-				title: 'Bootstrap',
-				icon: <FaBootstrap color='rgb(125, 17, 248)' />,
-				color: 'rgb(125, 17, 248, 0.75)',
-			},
-			// Optionally add ShadCn here
-		],
-	},
-	{
-		heading: 'Databases I Use',
-		items: [
-			{
-				title: 'MsSQL',
-				icon: <DiMsqlServer color='rgb(230, 50, 42)' />,
-				color: 'rgb(241, 83, 75, 0.5)',
-			},
-			{
-				title: 'MongoDB',
-				icon: <DiMongodb color='rgb(0, 237, 100)' />,
-				color: 'rgb(0, 237, 100, 0.7)',
-			},
-			{
-				title: 'MySQL',
-				icon: <SiMysql color='rgb(0, 122, 158)' />,
-				color: 'rgb(0, 122, 158, 0.75)',
-			},
+			{ title: 'CSS', icon: <FaCss3Alt color='rgb(38, 77, 228)' />, color: 'rgba(38, 77, 228, 0.5)' },
+			{ title: 'Excel', icon: <FaFileExcel color='rgb(16, 124, 16)' />, color: 'rgba(16, 124, 16, 0.5)' },
+			{ title: 'Express JS', icon: <SiExpress color='rgba(255, 255, 255)' />, color: 'rgba(255, 255, 255, 0.4)' },
+			{ title: 'HTML', icon: <FaHtml5 color='rgb(227, 79, 38)' />, color: 'rgba(227, 79, 38, 0.5)' },
+			{ title: 'JavaScript', icon: <SiJavascript color='rgb(240, 219, 79)' />, color: 'rgba(240, 219, 79, 0.6)' },
+			{ title: 'MySQL', icon: <SiMysql color='rgb(0, 122, 158)' />, color: 'rgb(0, 122, 158, 0.75)' },
+			{ title: 'Next JS', icon: <TbBrandNextjs color='rgb(255, 255, 255)' />, color: 'rgba(255, 255, 255, 0.4)' },
+			{ title: 'Node.js', icon: <FaNodeJs color='rgb(104, 160, 99)' />, color: 'rgb(104, 160, 99)' },
+			{ title: 'Pandas', icon: <SiPandas color='rgb(156, 39, 176)' />, color: 'rgba(156, 39, 176, 0.5)' },
+			{ title: 'Photoshop', icon: <SiAdobephotoshop color='rgb(0, 168, 255)' />, color: 'rgba(0, 168, 255, 0.5)' },
+			{ title: 'Prisma ORM', icon: <SiPrisma color='rgb(12, 52, 75)' />, color: 'rgba(12, 52, 75, 0.5)' },
+			{ title: 'Python', icon: <SiPython color='rgb(53, 114, 165)' />, color: 'rgba(53, 114, 165, 0.5)' },
+			{ title: 'React', icon: <FaReact color='rgb(97, 219, 251)' />, color: 'rgb(97, 219, 251, 0.6)' },
+			{ title: 'React Native', icon: <SiReact color='rgb(97, 219, 251)' />, color: 'rgba(97, 219, 251, 0.5)' },
+			{ title: 'Premiere Pro', icon: <SiAdobepremierepro color='rgb(161, 90, 192)' />, color: 'rgba(161, 90, 192, 0.5)' },
 		],
 	},
 ];
@@ -123,8 +63,7 @@ export const TechStack = () => {
 			</div>
 			<div>
 				<SectionTitle
-					title='Tech'
-					subTitle='SET'
+					title='Skills'
 				/>
 			</div>
 		</section>
