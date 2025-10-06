@@ -15,12 +15,12 @@ export const InfoSection = () => {
 			/>
 			<p>Hi, I am</p>
 			<TextHover
-				text='ABDULLAH'
+				text='ANMOL'
 				className='name'
 			/>
 			<p>Full Stack Developer</p>
 			<FloatingButton
-				label='Tech'
+				label='Skills'
 				className='sec'
 				href='/#tech-stack'
 			/>
@@ -28,21 +28,21 @@ export const InfoSection = () => {
 			<div className='blur'></div>
 			<div className='bottom-bar'>
 				<GlowLink
-					href='https://github.com/Abdullahiqbal2021'
+					href='https://github.com/anmolsherawat'
 					color='rgba(255, 255, 255, 0.4)'
 					icon={<FaGithub color='rgba(255, 255, 255,0.9)' />}
 					aria-label='github'
 				/>
 				<GlowLink
-					href='https://www.linkedin.com/in/muhammad-abdullah-iqbal/'
-					color='rgb(0, 160, 220, 0.6)'
-					icon={<FaLinkedinIn color='rgb(0, 160, 220)' />}
+					href='https://www.linkedin.com/in/anmolsherawat/'
+					color='rgba(161, 90, 192, 0.5)'
+					icon={<FaLinkedinIn color='rgb(161, 90, 192)' />}
 					aria-label='linkedin'
 				/>
 				<GlowLink
-					href='mailto:muhammadabdullahiqbal2021@gmail.com'
-					icon={<IoMailOutline color='rgb(18, 122, 209)' />}
-					color=' rgb(18, 122, 209,0.7)'
+					href='mailto:anmolx0007@gmail.com'
+					icon={<IoMailOutline color='rgb(161, 90, 192)' />}
+					color='rgba(161, 90, 192, 0.6)'
 					aria-label='mail'
 				/>
 			</div>
