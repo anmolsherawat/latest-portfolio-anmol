@@ -5,18 +5,18 @@
 	--textDim: hsl(0, 0%, 60%);
 	--background: hsl(0, 0%, 0%);
 	--background-reverse: hsl(0, 0%, 100%);
-	--scroll-bar: 31, 195, 255;
-	--primary: 31, 195, 255;
-	--primaryBg: hsla(155, 100%, 65%, 1%);
-	--primaryHi: hsla(155, 100%, 75%, 25%);
-	--primaryFg: hsl(155, 100%, 85%);
-	--secondary: hsl(156, 51%, 14%);
-	--secondaryFg: hsl(156, 51%, 75%);
-	--secondaryBg: hsla(156, 51%, 14%, 5%);
-	--secondaryHi: hsla(156, 51%, 30%, 50%);
-	--accent: hsl(155, 100%, 94%);
-	--accentBg: hsla(155, 100%, 94%, 1%);
-	--accentHi: hsla(155, 100%, 100%, 25%);
+	--scroll-bar: 161, 90, 192;
+	--primary: 161, 90, 192;
+	--primaryBg: rgba(161, 90, 192, 0.08);
+	--primaryHi: rgba(161, 90, 192, 0.25);
+	--primaryFg: hsl(270, 65%, 85%);
+	--secondary: hsl(270, 35%, 18%);
+	--secondaryFg: hsl(270, 35%, 75%);
+	--secondaryBg: hsla(270, 35%, 18%, 5%);
+	--secondaryHi: hsla(270, 45%, 40%, 50%);
+	--accent: hsl(270, 65%, 94%);
+	--accentBg: hsla(270, 65%, 94%, 1%);
+	--accentHi: hsla(270, 65%, 60%, 35%);
 }
 
 html {
@@ -74,7 +74,7 @@ hr:before {
 	right: 0;
 	left: 0;
 	font-size: 1.5em;
-	color: hsl(196, 100%, 56%);
+	color: hsl(270, 65%, 60%);
 	text-align: center;
 }
 
@@ -110,7 +110,7 @@ hr:before {
 }
 
 .heading {
-	color: hsl(196, 100%, 56%);
+	color: hsl(270, 65%, 60%);
 	text-decoration: underline;
 	margin-bottom: 0.9rem;
 }
