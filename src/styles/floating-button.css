@@ -64,7 +64,7 @@
 }
 
 .floating-btn.first > span {
-	background-color: hsla(200, 88%, 46%, 0.475);
+	background-color: var(--accentHi);
 }
 
 .floating-btn.sec {
