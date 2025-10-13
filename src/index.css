@@ -1,4 +1,4 @@
-/* TODO convert to rgb colors to apply opacity property */
+
 :root {
 	--text: hsl(0, 0%, 100%);
 	--text-reverse: hsl(0, 0%, 0%);
