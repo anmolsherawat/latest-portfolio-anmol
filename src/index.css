@@ -78,9 +78,7 @@ hr:before {
 	text-align: center;
 }
 
-/*
-	* ScrollBar Styling
-*/
+
 
 ::-webkit-scrollbar {
 	display: none;
